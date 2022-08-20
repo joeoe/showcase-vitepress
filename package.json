@@ -1,0 +1,25 @@
+{
+  "name": "showcase-vitepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "Johannes Juks",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.9",
+    "vue": "^3.2.37"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
